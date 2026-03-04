@@ -1,0 +1,8 @@
+rule,subreddit,total_comments,violations,violation_rate
+illegal_activity,suicidewatch,100,10,0.1
+illegal_activity,depression,100,4,0.04
+illegal_activity,conspiracy,100,4,0.04
+illegal_activity,syriancivilwar,100,3,0.03
+illegal_activity,shitredditsays,100,2,0.02
+illegal_activity,socialism,100,1,0.01
+illegal_activity,latestagecapitalism,100,0,0.0

@@ -1,0 +1,16 @@
+rule,subreddit,total_comments,violations,violation_rate
+advertising,pics,100,11,0.11
+advertising,food,100,7,0.07
+advertising,gaming,100,6,0.06
+advertising,funny,100,4,0.04
+advertising,diy,100,3,0.03
+financial_advice,diy,100,0,0.0
+illegal_activity,news,100,5,0.05
+illegal_activity,europe,100,4,0.04
+illegal_activity,mma,100,4,0.04
+illegal_activity,atheism,100,2,0.02
+illegal_activity,sandersforpresident,100,1,0.01
+medical_advice,food,100,4,0.04
+spoilers,mma,100,6,0.06
+spoilers,cfb,100,2,0.02
+spoilers,nfl,100,0,0.0

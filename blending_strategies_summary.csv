@@ -1,0 +1,8 @@
+Strategy,Formula,Condition,Samples_affected,Pct_affected,Actual_score,Estimated_score,Risk
+Baseline (Deberta),mean_prediction,Always,0,0.0,0.912,0.912,NONE
+Failed (blend high uncertainty),0.5*D + 0.5*E on high std,fold_std >= p95,1922,5.005077992760605,0.897,0.897,PROVEN BAD
+Strategy 1 (pull down FP),0.3*D + 0.7*E,D >= 0.5 AND E < 0.3,2240,5.83318142756699,,0.905-0.908,HIGH
+Strategy 2 (boost FN),0.3*D + 0.7*E,E >= 0.5 AND D < 0.3,397,1.0338272440821854,,0.911-0.913,MEDIUM
+Strategy 3 (combined),S1 + S2,S1 OR S2,2637,6.867008671649176,,0.904-0.910,HIGH
+Strategy 4 (conservative) ★,0.8*D + 0.2*E,|D - E| > 0.3,4394,11.442410353897033,,0.912-0.914,LOW
+Strategy 5 (LLM consensus),0.4*D + 0.6*E,Q<0.2 AND L<0.4 AND D>0.5,1294,3.3697039139605742,,0.910-0.914,MEDIUM

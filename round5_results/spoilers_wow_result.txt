@@ -1,0 +1,5 @@
+rule: spoilers
+subreddit: wow
+total_comments: 100
+violations: 3
+violation_rate: 3.00

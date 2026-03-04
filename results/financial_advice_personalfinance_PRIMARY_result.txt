@@ -1,0 +1,6 @@
+rule: financial_advice
+subreddit: personalfinance
+priority: PRIMARY
+total_comments: 100
+violations: 13
+violation_rate: 0.13

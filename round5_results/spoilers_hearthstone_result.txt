@@ -1,0 +1,5 @@
+rule: spoilers
+subreddit: hearthstone
+total_comments: 100
+violations: 0
+violation_rate: 0.00

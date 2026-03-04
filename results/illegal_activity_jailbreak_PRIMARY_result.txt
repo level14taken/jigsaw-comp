@@ -1,0 +1,6 @@
+rule: illegal_activity
+subreddit: jailbreak
+priority: PRIMARY
+total_comments: 100
+violations: 15
+violation_rate: 0.15

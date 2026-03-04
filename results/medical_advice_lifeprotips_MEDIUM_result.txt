@@ -1,0 +1,6 @@
+rule: medical_advice
+subreddit: lifeprotips
+priority: MEDIUM
+total_comments: 100
+violations: 0
+violation_rate: 0.0

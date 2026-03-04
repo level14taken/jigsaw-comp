@@ -1,0 +1,6 @@
+rule: illegal_activity
+subreddit: incels
+priority: HIGH
+total_comments: 100
+violations: 12
+violation_rate: 0.12

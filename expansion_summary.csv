@@ -1,0 +1,15 @@
+rule,subreddit,total_comments,violations,violation_rate
+advertising,pcmasterrace,100,6,0.06
+advertising,pokemongo,100,5,0.05
+advertising,android,100,2,0.02
+financial_advice,relationships,100,2,0.02
+financial_advice,askreddit,100,1,0.01
+illegal_activity,blackpeopletwitter,100,2,0.02
+legal_advice,relationships,100,3,0.03
+legal_advice,askreddit,100,1,0.01
+medical_advice,relationships,100,4,0.04
+medical_advice,askreddit,100,1,0.01
+medical_advice,twoxchromosomes,100,1,0.01
+spoilers,television,100,4,0.04
+spoilers,movies,100,3,0.03
+spoilers,leagueoflegends,100,0,0.0

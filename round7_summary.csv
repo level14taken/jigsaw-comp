@@ -1,0 +1,11 @@
+rule,subreddit,total_comments,violations,violation_rate
+advertising,askreddit,100,4,4.0
+illegal_activity,askreddit,100,4,4.0
+legal_advice,politics,100,2,2.0
+financial_advice,politics,100,0,0.0
+medical_advice,politics,100,0,0.0
+advertising,the_donald,100,1,1.0
+legal_advice,the_donald,100,1,1.0
+financial_advice,the_donald,100,0,0.0
+illegal_activity,the_donald,100,0,0.0
+medical_advice,the_donald,100,0,0.0

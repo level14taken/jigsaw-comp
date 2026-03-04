@@ -1,0 +1,6 @@
+rule: spoilers
+subreddit: gameofthrones
+priority: PRIMARY
+total_comments: 100
+violations: 11
+violation_rate: 0.11

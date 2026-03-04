@@ -1,0 +1,189 @@
+================================================================================
+RULE VIOLATION EXAMPLES - TRAINING DATA
+================================================================================
+
+Each rule has 2 PAIRS of examples:
+- Each pair contains 1 VIOLATING comment and 1 NON-VIOLATING comment
+- All examples are from the highest-performing subreddits for each rule
+
+================================================================================
+RULE 1: FINANCIAL ADVICE
+Subreddit: personalfinance
+Rule: "no financial advice: we do not permit comments that make personal
+recommendations for investments, taxes, or careers."
+================================================================================
+
+--- PAIR 1 ---
+
+VIOLATING COMMENT:
+"Take a portion of that 20k and hire a CFP to plan your financial future.
+Easily the most bang for your buck."
+
+Why it violates: Makes a specific recommendation to hire a Certified Financial
+Planner (CFP), which is personal financial advice.
+
+NON-VIOLATING COMMENT:
+"Live on 10 an hour? I make 8.25 an hour, and live fine."
+
+Why it doesn't violate: This is just a personal anecdote about the commenter's
+own situation. Not giving advice or recommendations to others.
+
+--- PAIR 2 ---
+
+VIOLATING COMMENT:
+"The best way to use 'debt' to make more money is to use short sales on
+securities. This is very risky, takes extensive research, and can lead to
+almost infinite losses – but if you're right you will make a lot of $$"
+
+Why it violates: Provides specific investment advice about short selling
+securities, which is a personal recommendation for investments.
+
+NON-VIOLATING COMMENT:
+"I didn't haggle with my latest job - they made an offer that was the top of
+my desired salary range plus had massively better benefits compared to my
+previous job. I likely could have gotten a few percent more out of them, but
+it might have soured my relationship with my boss. The offer they made was
+more than fair so I accepted it. It sounds like you're in the same position."
+
+Why it doesn't violate: Sharing personal experience about their own job
+negotiation. While mentioning the other person's position, not making specific
+recommendations about investments, taxes, or careers.
+
+================================================================================
+RULE 2: MEDICAL ADVICE
+Subreddit: depression
+Rule: "no medical advice: do not offer or request specific medical advice,
+diagnoses, or treatment recommendations."
+================================================================================
+
+--- PAIR 1 ---
+
+VIOLATING COMMENT:
+"Overdosing is a really bad method. Use nitrogen or nembutal."
+
+Why it violates: Provides specific suicide method advice, which is offering
+harmful medical/treatment information that could lead to death.
+
+NON-VIOLATING COMMENT:
+"Hey friend, feel free to PM me if you'd like someone to talk to. I'll be
+around."
+
+Why it doesn't violate: Offers emotional support and availability to talk.
+Does not provide any medical advice, diagnosis, or treatment recommendations.
+
+--- PAIR 2 ---
+
+VIOLATING COMMENT:
+"In my opinion, the drugs are not helping. I don't know your full story and am
+basing what I think off of what you've told us, but I really think the
+depression medications are no good for your stability. You've been subjected
+to some pretty terrible experiences and the meds are just numbing you to it
+all. Let alone every time you take those pills your reminded of these terrible
+things that happened that are making you take the pills."
+
+Why it violates: Provides specific medical advice telling someone that their
+depression medications are "no good" and recommending they stop taking
+prescribed medication. This is dangerous medical advice.
+
+NON-VIOLATING COMMENT:
+"Thank you for your optimism! I felt super depressed today for no reason and
+came here to sulk. You made me feel a little better!"
+
+Why it doesn't violate: Personal sharing of feelings and gratitude. No medical
+advice, diagnosis, or treatment recommendations offered.
+
+================================================================================
+RULE 3: ILLEGAL ACTIVITY
+Subreddit: incels
+Rule: "no promotion of illegal activity: do not encourage or promote illegal
+activities, such as drug-related activity, violence, exploitation, theft, or
+other criminal behavior."
+================================================================================
+
+--- PAIR 1 ---
+
+VIOLATING COMMENT:
+"Just rape her and hide her body, you work in a factory goddamnit"
+
+Why it violates: Explicitly encourages rape (sexual violence) and murder (hiding
+body), which are both serious violent crimes. Clear promotion of illegal activity.
+
+NON-VIOLATING COMMENT:
+"Sure there is, go to the gym, get some decent clothes, learn how to build up
+confidence, get a hobby or something interesting about yourself. Hell, it's
+fucking easy as shit to meet women these days with apps like Tinder. You're
+the same as HAES people saying it can't be done because you just can't be
+bothered to make the effort. It's your choice if you want to wallow in your
+own self pity or make something of yourself."
+
+Why it doesn't violate: Provides self-improvement advice (gym, clothes,
+confidence, hobbies). While harsh in tone, does not encourage or promote any
+illegal activities.
+
+--- PAIR 2 ---
+
+VIOLATING COMMENT:
+"Why don't you blow your brains out with a shotgun, instead of giving me
+empty platitudes."
+
+Why it violates: Directly encourages someone to commit suicide (kill themselves),
+which promotes violence and harm. Assisted suicide and encouraging suicide are
+illegal in many jurisdictions.
+
+NON-VIOLATING COMMENT:
+"I think you should seek therapy. Everyone keeps telling you that you're not
+boring (you got picked because of your skills on the bass ffs) and that you're
+not unattractive, but you can't seem to believe it."
+
+Why it doesn't violate: Suggests seeking professional help (therapy) and offers
+encouragement. Does not promote any illegal activities - therapy is a legal and
+helpful resource.
+
+================================================================================
+RULE 4: SPOILERS
+Subreddit: gameofthrones
+Rule: "no spoilers: do not reveal important details that would limit people's
+ability to enjoy a show or movie."
+================================================================================
+
+--- PAIR 1 ---
+
+VIOLATING COMMENT:
+"Catelyn Stark brought back to life by Beric Dondarrion, who died in the process. She was found in the river by Nymeria (Arya's wolf, who Arya warged into at the time), then found by the BwB. She leads a far more ruthless BwB, and they begin intercepting Freys and killing them. They killed the Frey third in line of succession (just a child), another Frey in the epilogue of ASoS, the current Frey heir, etc. the guy with the yellow cloak that was killed by the Hound in the TV series is still a loyal member of the BwB and he is her right hand man. They catch Brienne and Pod and almost hang them (it's a cliffhanger at the end of AFFC), then send Brienne on a mission to capture Jaime to answer for his crimes against the Starks and Tullys."
+
+Why it violates: Reveals extensive major plot details including character
+resurrection (Lady Stoneheart), multiple character deaths, major plot
+developments, and cliffhangers. This would completely ruin the viewing/reading
+experience.
+
+NON-VIOLATING COMMENT:
+"Man the Hype is getting the better of me..."
+
+Why it doesn't violate: General expression of excitement about the show. No
+specific plot details or spoilers revealed.
+
+--- PAIR 2 ---
+
+VIOLATING COMMENT:
+"Bastard Bowl in the North featuring the Vale. Tyrells vs Jesus Freaks in King's Landing. Dothraki+Unsullied vs Slaver's Bay, except Tyrion tried to be diplomatic with them. Tower of Joy and apparently more about the White Walkers as well. Arya becomes one of the faceless men."
+
+Why it violates: Reveals multiple major plot points across different storylines
+including battles, alliances, character outcomes (Arya becoming faceless), and
+important story reveals (Tower of Joy). Would significantly diminish viewing
+experience.
+
+NON-VIOLATING COMMENT:
+"Get hype."
+
+Why it doesn't violate: Simple expression of excitement. Contains no plot
+details or spoilers whatsoever.
+
+================================================================================
+END OF EXAMPLES
+================================================================================
+
+Notes:
+- These examples were selected from actual moderated comments
+- Each violating example clearly breaks the stated rule
+- Each non-violating example represents legitimate discussion/sharing
+- The distinction between violation and non-violation is clear and consistent

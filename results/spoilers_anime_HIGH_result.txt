@@ -1,0 +1,6 @@
+rule: spoilers
+subreddit: anime
+priority: HIGH
+total_comments: 100
+violations: 18
+violation_rate: 0.18

@@ -1,0 +1,25 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments & Virtual Envs
+.venv/
+venv/
+env/
+bin/
+
+# Hidden IDE & OS files
+.DS_Store
+.vscode/
+.idea/
+
+# Large Data & Claude/AI outputs
+*.log
+# If your Claude code involves large datasets or local storage
+node_modules/
+.ipynb_checkpoints/
+
+# Personal/Secret files
+.env
+*.token

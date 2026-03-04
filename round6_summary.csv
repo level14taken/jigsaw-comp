@@ -1,0 +1,17 @@
+rule,subreddit,total_comments,violations,violation_rate
+financial_advice,askhistorians,100,1,1.0
+financial_advice,lifeprotips,100,1,1.0
+financial_advice,tifu,100,1,1.0
+financial_advice,getmotivated,100,0,0.0
+financial_advice,iama,100,0,0.0
+financial_advice,philosophy,100,0,0.0
+financial_advice,space,100,0,0.0
+financial_advice,technology,100,0,0.0
+legal_advice,purplepilldebate,100,4,4.0
+legal_advice,shitredditsays,100,2,2.0
+legal_advice,askhistorians,100,1,1.0
+legal_advice,enoughtrumpspam,100,1,1.0
+legal_advice,europe,100,1,1.0
+legal_advice,neutralpolitics,100,1,1.0
+legal_advice,canadapolitics,100,0,0.0
+legal_advice,history,100,0,0.0

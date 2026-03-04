@@ -1,0 +1,16 @@
+rule,subreddit,total_comments,violations,violation_rate
+advertising,videos,100,16,0.16
+advertising,gonewild,100,5,0.05
+advertising,futurology,100,3,0.03
+advertising,games,100,3,0.03
+advertising,politics,100,3,0.03
+financial_advice,explainlikeimfive,100,0,0.0
+financial_advice,futurology,100,0,0.0
+illegal_activity,worldnews,100,5,0.05
+illegal_activity,politics,100,2,0.02
+illegal_activity,hillaryclinton,100,0,0.0
+legal_advice,explainlikeimfive,100,0,0.0
+medical_advice,science,100,4,0.04
+medical_advice,askscience,100,3,0.03
+medical_advice,explainlikeimfive,100,1,0.01
+spoilers,games,100,0,0.0
