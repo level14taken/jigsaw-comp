@@ -1,25 +1,14 @@
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-*$py.class
+# Large data files
+data/analysis/test1.csv
+data/analysis/test2.csv
+data/analysis/test3.csv
+data/analysis/toy_test.csv
+data/analysis/pseudo_labeled_data_with_predictions.csv
+data/analysis/sampled_unlabelled_100k.csv
+data/analysis/sampled_unlabelled_100k_with_predictions.csv
 
-# Environments & Virtual Envs
-.venv/
-venv/
-env/
-bin/
+# Reddit source data (too large)
+data/raw/reddit-removal-log.csv
 
-# Hidden IDE & OS files
-.DS_Store
-.vscode/
-.idea/
-
-# Large Data & Claude/AI outputs
-*.log
-# If your Claude code involves large datasets or local storage
-node_modules/
-.ipynb_checkpoints/
-
-# Personal/Secret files
-.env
-*.token
+# Local Claude settings
+.claude/
